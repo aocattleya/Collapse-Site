@@ -1,0 +1,180 @@
+* {
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.header {
+  width: auto;
+  font-size: 12px;
+  background-color: #222222;
+  color: #e6e6e6;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    width: auto;
+    display: flex;
+    &--text {
+      width: auto;
+      margin: 4px 15px 5px;
+      text-align: center;
+    }
+  }
+  &__right {
+    display: flex;
+    width: auto;
+    &--text {
+      width: auto;
+      margin: 4px 15px 5px;
+      text-align: center;
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    &__DLsite {
+      margin: 10px;
+    }
+    &__link {
+      width: 350px;
+      margin: 10px 10px 0px 10px;
+      display: flex;
+      justify-content: space-around;
+      box-sizing: border-box;
+    }
+    &__link--guid {
+      width: 50px;
+      border: solid 1px #9b9b9b;
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      padding-top: 2px;
+      box-sizing: border-box;
+      background-color: #f7f7f7;
+    }
+  }
+}
+
+.icon-awesome {
+  font-size: 30px;
+  color: #7a7a7a;
+  margin: 0 5px;
+}
+
+.content {
+  display: flex;
+  height: 1000px;
+}
+
+.left {
+  width: 20%;
+  // background-color: red;
+  &__content {
+    margin: 0 auto;
+    // background-color: blue;
+    height: 1000px;
+    width: 90%;
+    &__follow {
+      border: solid 1px #b7bed1;
+      border-radius: 3px;
+      &--title {
+        background-color: #607194;
+        color: white;
+        height: 35px;
+        padding: 7px 0 5px 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      &__mibun {
+        background: #e6eaf2;
+        color: #536280;
+        height: 35px;
+        padding: 7px 0 5px 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+      &__circle {
+        background: #ffffff;
+        color: #333;
+        height: 35px;
+        padding: 7px 0 5px 10px;
+        box-sizing: border-box;
+        font-size: 12px;
+      }
+    }
+    &__search {
+      margin-top: 20px;
+      border: solid 1px #b7bed1;
+      border-radius: 3px;
+      &--title{
+        font-weight: bold;
+        background: #607194;
+        color: white;
+        height: 35px;
+        padding: 7px 0 5px 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+      &__work{
+        background: #ffffff;
+        color: #333;
+        height: 35px;
+        padding: 7px 0 5px 10px;
+        box-sizing: border-box;
+        font-size: 12px;
+      }
+      &__work--format{
+        background: #e6eaf2;
+        color: #536280;
+        height: 35px;
+        padding: 7px 0 5px 10px;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.right {
+  width: 80%;
+  // background-color: blue;
+  position: relative;
+  &__top {
+    width: 100%;
+    margin: 0 auto;
+    &--img {
+      max-height: 200px;
+      width: 98%;
+    }
+    &__content {
+      display: flex;
+      position: absolute;
+      z-index: 1;
+      top: 30px;
+      left: 30px;
+      width: 300px;
+      &--icon {
+        width: 220px;
+        border-radius: 50%;
+        border: solid 3px #607194;
+      }
+      &--text {
+        position: absolute;
+        height: 50px;
+        right: -90px;
+        bottom: 0;
+        font-size: 30px;
+        font-weight: bold;
+        color: #293144;
+      }
+      &--favorite {
+        position: absolute;
+        height: 50px;
+        right: -270px;
+        bottom: -15px;
+        font-size: 15px;
+      }
+    }
+  }
+}

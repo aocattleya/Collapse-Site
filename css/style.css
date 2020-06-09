@@ -1,0 +1,230 @@
+@charset "UTF-8";
+* {
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.header {
+  width: auto;
+  font-size: 12px;
+  background-color: #222222;
+  color: #e6e6e6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__left {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__left--text {
+  width: auto;
+  margin: 4px 15px 5px;
+  text-align: center;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+
+.header__right--text {
+  width: auto;
+  margin: 4px 15px 5px;
+  text-align: center;
+}
+
+.header__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__bottom__DLsite {
+  margin: 10px;
+}
+
+.header__bottom__link {
+  width: 350px;
+  margin: 10px 10px 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__bottom__link--guid {
+  width: 50px;
+  border: solid 1px #9b9b9b;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding-top: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+.icon-awesome {
+  font-size: 30px;
+  color: #7a7a7a;
+  margin: 0 5px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1000px;
+}
+
+.left {
+  width: 20%;
+}
+
+.left__content {
+  margin: 0 auto;
+  height: 1000px;
+  width: 90%;
+}
+
+.left__content__follow {
+  border: solid 1px #b7bed1;
+  border-radius: 3px;
+}
+
+.left__content__follow--title {
+  background-color: #607194;
+  color: white;
+  height: 35px;
+  padding: 7px 0 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.left__content__follow__mibun {
+  background: #e6eaf2;
+  color: #536280;
+  height: 35px;
+  padding: 7px 0 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+
+.left__content__follow__circle {
+  background: #ffffff;
+  color: #333;
+  height: 35px;
+  padding: 7px 0 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+}
+
+.left__content__search {
+  margin-top: 20px;
+  border: solid 1px #b7bed1;
+  border-radius: 3px;
+}
+
+.left__content__search--title {
+  font-weight: bold;
+  background: #607194;
+  color: white;
+  height: 35px;
+  padding: 7px 0 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+
+.left__content__search__work {
+  background: #ffffff;
+  color: #333;
+  height: 35px;
+  padding: 7px 0 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+}
+
+.left__content__search__work--format {
+  background: #e6eaf2;
+  color: #536280;
+  height: 35px;
+  padding: 7px 0 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.right {
+  width: 80%;
+  position: relative;
+}
+
+.right__top {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.right__top--img {
+  max-height: 200px;
+  width: 98%;
+}
+
+.right__top__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 30px;
+  width: 300px;
+}
+
+.right__top__content--icon {
+  width: 220px;
+  border-radius: 50%;
+  border: solid 3px #607194;
+}
+
+.right__top__content--text {
+  position: absolute;
+  height: 50px;
+  right: -90px;
+  bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #293144;
+}
+
+.right__top__content--favorite {
+  position: absolute;
+  height: 50px;
+  right: -270px;
+  bottom: -15px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
