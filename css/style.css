@@ -3,7 +3,22 @@
   font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
 }
 
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.logo {
+  width: 120px;
+}
+
+img {
+  background-size: cover;
+  width: 100%;
+}
+
 .header {
+  max-height: 25px;
   width: auto;
   font-size: 12px;
   background-color: #222222;
@@ -53,8 +68,8 @@
           justify-content: space-between;
 }
 
-.header__bottom__DLsite {
-  margin: 10px;
+.header__bottom__logo {
+  margin: 10px 0 5px 20px;
 }
 
 .header__bottom__link {
@@ -81,6 +96,15 @@
   background-color: #f7f7f7;
 }
 
+.footer {
+  width: 100%;
+  background-color: #607194;
+  height: 40px;
+  margin-top: -40px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
 .icon-awesome {
   font-size: 30px;
   color: #7a7a7a;
@@ -91,7 +115,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 1000px;
+  min-height: 100%;
 }
 
 .left {
@@ -100,7 +124,6 @@
 
 .left__content {
   margin: 0 auto;
-  height: 1000px;
   width: 90%;
 }
 
@@ -223,8 +246,48 @@
 .right__top__content--favorite {
   position: absolute;
   height: 50px;
-  right: -270px;
+  right: -300px;
   bottom: -15px;
   font-size: 15px;
+}
+
+.right__bottom {
+  margin-top: 100px;
+  width: 98%;
+  height: 600px;
+}
+
+.right__bottom__text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #293144;
+}
+
+.right__bottom__container {
+  border-top: solid 3px #607194;
+  max-width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.item {
+  width: 30%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.item--title {
+  text-align: center;
+  border-bottom: solid 2px;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: 0 auto 10px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

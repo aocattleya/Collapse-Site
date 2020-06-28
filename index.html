@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="img/kurin.jpg" />
     <link
-      rel="stylesheet"
-      type="text/css"
-      href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"
-    />
-    <link
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/cssreset-min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>sample</title>
     <script></script>
@@ -21,16 +17,16 @@
   <header>
     <div class="header">
       <div class="header__left">
-        <div class="header__left--text">同人</div>
         <div class="header__left--text">コミック</div>
-        <div class="header__left--text">PCソフト</div>
-        <div class="header__left--text">女性向け</div>
-        <div class="header__left--text">にじGAME</div>
-        <div class="header__left--text">Ci-en</div>
-        <div class="header__left--text">DLチャンネル</div>
-        <div class="header__left--text">chobit</div>
-        <div class="header__left--text">トリオキニ</div>
-        <div class="header__left--text">DLsiteスタジオ</div>
+        <div class="header__left--text">マンガ</div>
+        <div class="header__left--text">アニメ</div>
+        <div class="header__left--text">ドラマ</div>
+        <div class="header__left--text">ゲーム</div>
+        <div class="header__left--text">イラスト</div>
+        <div class="header__left--text">ASMR</div>
+        <div class="header__left--text">VR</div>
+        <div class="header__left--text">R-18</div>
+        <div class="header__left--text">DLsite</div>
       </div>
       <div class="header__right">
         <div class="header__right--text">ログイン中</div>
@@ -38,8 +34,8 @@
       </div>
     </div>
     <div class="header__bottom">
-      <div class="header__bottom__DLsite">
-        <img src="img/logo-dlsite.png" alt="DLsite" class="DLsite-logo" />
+      <div class="header__bottom__logo">
+        <img src="img/Collapse.png" alt="DLsite" class="logo" width="120px" />
       </div>
       <div class="header__bottom__form"></div>
       <div class="header__bottom__link">
@@ -59,31 +55,75 @@
           <div class="left__content__follow">
             <div class="left__content__follow--title"><i class="fas fa-heart"></i> フォローリスト</div>
             <div class="left__content__follow__mibun">未分類</div>
-            <div class="left__content__follow__circle">にじよめの館</div>
-            <div class="left__content__follow__circle">ディーエル子</div>
-            <div class="left__content__follow__circle">アテナの星</div>
-            <div class="left__content__follow__circle">りす愛好会</div>
-            <div class="left__content__follow__circle"></div>
+            <div class="left__content__follow__circle">くりんちゃんの研究所</div>
+            <div class="left__content__follow__circle">アキバの館</div>
+            <div class="left__content__follow__circle">サークル「緑茶」</div>
+            <div class="left__content__follow__circle">ぬこ愛好会</div>
+            <div class="left__content__follow__circle">にじよめちゃんのファン</div>
           </div>
           <div class="left__content__search">
-            <div class="left__content__search--title"></i>同人作品を探す</div>
+            <div class="left__content__search--title"></i>作品を探す</div>
             <div class="left__content__search__work">¥0 無料作品</div>
-            <div class="left__content__search__work"><i class="far fa-hand-point-down"></i> ディーエル子</div>
-            <div class="left__content__search__work"><i class="fas fa-star-and-crescent"></i> アテナの星</div>
+            <div class="left__content__search__work"><i class="far fa-hand-point-down"></i> 割引中の作品</div>
+            <div class="left__content__search__work"><i class="fas fa-star-and-crescent"></i> 専売作品</div>
             <div class="left__content__search__work--format">作品形式</div>
+            <div class="left__content__search__work">ゲーム</div>
+            <div class="left__content__search__work">マンガ</div>
+            <div class="left__content__search__work">アニメ</div>
+            <div class="left__content__search__work">ドラマ</div>
+            <div class="left__content__search__work">ゲーム</div>
+            <div class="left__content__search__work">イラスト</div>
+            <div class="left__content__search__work">ASMR</div>
+            <div class="left__content__search__work">VR</div>
+            <div class="left__content__search__work">R-18</div>
+            <div class="left__content__search__work">DLsite</div>
           </div>
         </div>
       </div>
       <div class="right">
+        <!-- 右の上部 -->
         <div class="right__top">
-          <img src="img/dlsite-top.jpg" alt="DLsite" class="right__top--img" />
+          <img src="img/background.png" alt="DLsite" class="right__top--img" />
           <div class="right__top__content">
-            <img src="img/icon.jpg" alt="DLsite" class="right__top__content--icon" />
-            <div class="right__top__content--text">ディーエル子</div>
-            <div class="right__top__content--favorite">お気に入り数：4505人</div>
+            <img src="img/ao.png" alt="DLsite" class="right__top__content--icon" />
+            <div class="right__top__content--text">青いカトレア</div>
+            <div class="right__top__content--favorite">お気に入り数：900人</div>
+          </div>
+        </div>
+        <!-- 右の下部 -->
+        <div class="right__bottom">
+          <div class="right__bottom__text">
+            <i class="fas fa-list"></i> 作品一覧
+          </div>
+          <div class="right__bottom__container">
+            <div class="item">
+              <div class="item--title">ラーメンタイマー</div>
+              <div class="item--top"><img src="img/ramen.png"></div>
+            </div>
+            <div class="item">
+              <div class="item--title">書籍管理システム</div>
+              <div class="item--top"><img src="img/minibook.png"></div>
+            </div>
+            <div class="item">
+              <div class="item--title">WordCroud</div>
+              <div class="item--top"><img src="img/wordcroud.png"></div>
+            </div>
+            <div class="item">
+              <div class="item--title">ECsite</div>
+              <div class="item--top"><img src="img/ecsite.png"></div>
+            </div>
+            <div class="item">
+              <div class="item--title">動く夜景</div>
+              <div class="item--top"><img src="img/ster.png"></div>
+            </div>
+            <div class="item">
+              <div class="item--title">ポートフォリオ</div>
+              <div class="item--top"><img src="img/portforio.png"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="footer">aocattleya</div>
   </body>
 </html>
